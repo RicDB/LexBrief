@@ -5,4 +5,7 @@ iframe{
 
 .container{
     height: 100%;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1rem;
 }
