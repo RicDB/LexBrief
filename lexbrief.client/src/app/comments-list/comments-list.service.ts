@@ -13,6 +13,10 @@ export class CommentsListService {
     return this.http.get<CommentDto[]>('/api/comments');
   }
 
+  getCommentsSummary(comments: CommentDto[]) {
+    return this.http.post<string>('/api/comments/summary', { comments });
+  }
+
   addComment(comment: CommentDto) {
     return this.http.post<CommentDto>('/api/comments', { comment });
   }

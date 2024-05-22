@@ -11,5 +11,6 @@ namespace BLL.Contracts
     {
         IList<CommentDto> GetComments();
         CommentDto AddComment(CommentDto comment);
+        Task<string> GetCommentsSummary(IEnumerable<CommentDto> comments);
     }
 }

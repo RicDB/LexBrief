@@ -28,5 +28,11 @@ namespace LexBrief.Controllers
         {
             return _commentService.AddComment(comment);
         }
+
+        [HttpPost("Summary")]
+        public async Task<string> Summary([FromBody] CommentDto[] comments)
+        {
+            return await _commentService.GetCommentsSummary(comments);
+        }
     }
 }
