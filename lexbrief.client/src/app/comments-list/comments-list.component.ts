@@ -44,6 +44,7 @@ export class CommentsListComponent implements OnInit {
       }),
       switchMap((res) => this.service.getCommentsSummary(this.comments).pipe(
         tap((res) => {
+          this.commentSentiment = { ...res };
           this.commentSummary = res.content;
         })
        )
@@ -60,7 +61,7 @@ export class CommentsListComponent implements OnInit {
       }),
       switchMap((res) => this.service.getCommentsSummary(this.comments).pipe(
         tap((res) => {
-          this.commentSentiment = res;
+          this.commentSentiment = { ...res };
           this.commentSummary = res.content;
         })
       ))
