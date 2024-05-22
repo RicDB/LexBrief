@@ -30,7 +30,7 @@ namespace LexBrief.Controllers
         }
 
         [HttpPost("Summary")]
-        public async Task<string> Summary([FromBody] CommentDto[] comments)
+        public async Task<CommentsSummaryDto> Summary([FromBody] CommentDto[] comments)
         {
             return await _commentService.GetCommentsSummary(comments);
         }

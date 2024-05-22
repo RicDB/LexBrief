@@ -59,7 +59,7 @@ namespace BLL.Models
             return positiveCommentList.Concat(negativeCommentList).OrderBy(x => new Random().Next()).ToList();
         }
 
-        public async Task<string> GetCommentsSummary(IEnumerable<CommentDto> comments)
+        public async Task<CommentsSummaryDto> GetCommentsSummary(IEnumerable<CommentDto> comments)
         {
             string commentsSummary = string.Empty;
 
@@ -70,7 +70,7 @@ namespace BLL.Models
 
             commentsSummary = await ExtractSummaryFromComments(listCommentsString);
 
-            return commentsSummary;
+            return new CommentsSummaryDto() { Content = commentsSummary };
         }
 
         private async Task<string> ExtractSummaryFromComments(string stringComments)
