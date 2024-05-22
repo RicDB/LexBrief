@@ -10,7 +10,25 @@
     <None Update="Data\Comments\comments.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Update="Data\Docs\Case 1Malaysia Development Berhad %281MDB%29 scandal .docx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Docs\Case 1Malaysia Development Berhad %281MDB%29 scandal .pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Docs\Case Silvia Baraldini v. United States Government.docx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Docs\Case Silvia Baraldini v. United States Government.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Update="Data\Docs\Debtors_Creditors_ All movements.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Docs\Evidence found in a murder.docx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Docs\Evidence found in a murder.pdf">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="SentimentAnalysis\model.zip">
@@ -19,6 +37,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Azure.AI.OpenAI" Version="1.0.0-beta.17" />
     <PackageReference Include="Microsoft.ML" Version="3.0.1" />
+    <PackageReference Include="PdfPig" Version="0.1.8" />
   </ItemGroup>
 </Project>

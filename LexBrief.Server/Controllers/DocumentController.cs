@@ -24,9 +24,9 @@ namespace LexBrief.Controllers
 
         // GET api/<DoumentController>/5
         [HttpGet("{id}")]
-        public DocumentDetailDto Get(int id)
+        public async Task<DocumentDetailDto> Get(int id)
         {
-            return _documentService.GetDocument(id);
+            return await _documentService.GetDocument(id);
         }
     }
 }

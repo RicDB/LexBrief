@@ -9,7 +9,8 @@ namespace BLL.Contracts
 {
     public interface IDocumentService
     {
-        DocumentDetailDto GetDocument(int id);
+        Task<DocumentDetailDto> GetDocument(int id);
         IList<DocumentDto> GetDocuments();
+        Task<string> GetDocumentSummary(int id);
     }
 }
