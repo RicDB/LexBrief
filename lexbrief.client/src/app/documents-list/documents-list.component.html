@@ -1,6 +1,21 @@
-<ul>
-  <li *ngFor="let document of documents">
-    <h3>{{ document.id }}</h3>
-    <p>{{ document.title }}</p>
-  </li>
-</ul>
+
+
+<!-- data-table.component.html -->
+<div class="mat-elevation-z8">
+  <table mat-table [dataSource]="dataSource" matSort class="mat-table" (selectionchange)="onSelectionChange($event)">
+    <!-- ID Column -->
+    <ng-container matColumnDef="id">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>  </th>
+      <td mat-cell *matCellDef="let element"> <span class="bi bi-file-pdf"></span>  </td>
+    </ng-container>
+
+    <!-- Title Column -->
+    <ng-container matColumnDef="title">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Title </th>
+      <td mat-cell *matCellDef="let element"> {{element.title}} </td>
+    </ng-container>
+
+     <!-- Riga della tabella -->
+    <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+  </table>  
+</div>

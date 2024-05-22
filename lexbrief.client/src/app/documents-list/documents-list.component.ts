@@ -1,29 +1,38 @@
 import {Component, OnInit} from '@angular/core';
 import {CommonModule} from "@angular/common";
-import { DocumentsListService } from "./documents-list.service";
+import { DocumentDto, DocumentsListService } from "./documents-list.service";
 import { tap } from "rxjs";
 import { MaterialModule } from '../material.module';
+import { MatTableDataSource } from '@angular/material/table';
 
 @Component({
   selector: 'app-documents-list',
   providers: [DocumentsListService],
   imports: [CommonModule, MaterialModule],
   standalone: true,
-  templateUrl: './documents-list.component.html'
+  templateUrl: './documents-list.component.html',
+  styleUrls: ['./documents-list.component.css']
 })
 export class DocumentsListComponent implements OnInit {
-  documents: any[];
+  dataSource!: MatTableDataSource<DocumentDto>;
+  //documents: any[];
+  displayedColumns: string[] = ['id', 'title'];
+
 
   constructor(private  service: DocumentsListService) {
-   this.documents = [];
   }
 
   ngOnInit(): void {
     this.service.getDocuments().pipe(
       tap((documents) => {
-        this.documents = documents;
+        //this.documents = documents;
+        this.dataSource = new MatTableDataSource(documents);
       })
     ).subscribe();
+  }
+
+  onSelectionChange(event: any) {
+    console.log('Righe selezionate:');
   }
 
 }

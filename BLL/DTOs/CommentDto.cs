@@ -9,7 +9,7 @@ namespace BLL.DTOs
     public class CommentDto
     {
         public string Content { get; set; }
-        public float Sentment { get; set; }
+        public float Sentiment { get; set; }
         public string OwnerInitials { get; set; }
     }
 }

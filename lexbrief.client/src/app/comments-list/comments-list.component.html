@@ -1,6 +1,17 @@
-<ul>
-  <li *ngFor="let comment of comments">
-    <h3>{{ comment.ownerInitials }}</h3>
-    <p>{{ comment.content }}</p>
+
+<ul class="comment-section">
+  <li *ngFor="let comment of comments" class="comment">
+    <div class="content">
+      <p>{{ comment.content }}</p>
+      <p *ngIf="comment.sentiment <= 0.4">Negative</p>
+      <p *ngIf="comment.sentiment > 0.4 && comment.sentiment < 0.6">Negative</p>
+      <p *ngIf="comment.sentiment >= 0.6">Negative</p>
+    </div>
+    <div class="owner">{{ comment.ownerInitials }}</div> 
   </li>
 </ul>
+<div>
+  <input type="text">
+  <button>Send</button>
+</div>
+
