@@ -1,3 +1,4 @@
-<div>PREVIEW</div>
-
-<p *ngIf="this.docId">{{docId}}</p>
+<div *ngIf="document" class="container">
+    <h3>{{document.title}}</h3>
+    <iframe [src]="preview"></iframe>
+</div>
