@@ -9,7 +9,8 @@ import { MaterialModule } from '../material.module';
   providers: [CommentsListService],
   imports: [CommonModule, MaterialModule],
   standalone: true,
-  templateUrl: './comments-list.component.html'
+  templateUrl: './comments-list.component.html',
+  styleUrls: ['./comments-list.component.css']
 })
 export class CommentsListComponent implements OnInit {
   comments: any[];

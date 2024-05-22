@@ -5,7 +5,8 @@ import {CommonModule} from "@angular/common";
   selector: 'app-preview-document',
   standalone: true,
   imports: [CommonModule],
-  templateUrl: './preview-document.component.html'
+  templateUrl: './preview-document.component.html',
+  styleUrls: ['./preview-document.component.css']
 })
 export class PreviewDocumentComponent {
 

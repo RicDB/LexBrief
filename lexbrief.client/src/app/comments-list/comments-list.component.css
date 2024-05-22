@@ -1,0 +1,25 @@
+.comment-section{
+    height: 80vh;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.comment{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.content{
+
+}
+
+.owner{
+    height: 5rem;
+    width: 5rem;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    border-style: solid;
+    border-radius: 50%;
+}

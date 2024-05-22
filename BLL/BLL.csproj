@@ -10,6 +10,12 @@
     <None Update="Data\Comments\comments.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Update="Data\Docs\Debtors_Creditors_ All movements - Copy %282%29.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Docs\Debtors_Creditors_ All movements - Copy.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Update="Data\Docs\Case 1Malaysia Development Berhad %281MDB%29 scandal .docx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
