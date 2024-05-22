@@ -1,0 +1,6 @@
+@LexBrief.Server_HostAddress = http://localhost:5174
+
+GET {{LexBrief.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

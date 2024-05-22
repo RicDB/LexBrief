@@ -1,0 +1,1241 @@
+[
+  {
+    "SentimentText": "I am extremely satisfied with the thorough and professional handling of my case.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.88124263,
+    "Score": 0.88124263
+  },
+  {
+    "SentimentText": "The legal advice provided was clear, concise, and very helpful.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.9149913,
+    "Score": 0.9149913
+  },
+  {
+    "SentimentText": "I appreciate the diligent work and dedication shown throughout the entire process.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.6663234,
+    "Score": 0.6663234
+  },
+  {
+    "SentimentText": "The attorney's expertise and knowledge made a significant positive impact on my case.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.6371567,
+    "Score": 0.6371567
+  },
+  {
+    "SentimentText": "Communication was excellent, and I always felt informed and supported.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.9802395,
+    "Score": 0.9802395
+  },
+  {
+    "SentimentText": "The attorney went above and beyond to ensure the best possible outcome for me.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.8977066,
+    "Score": 0.8977066
+  },
+  {
+    "SentimentText": "I felt confident and reassured knowing my case was in capable hands.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.79960465,
+    "Score": 0.79960465
+  },
+  {
+    "SentimentText": "The attorney's attention to detail and commitment to my case was truly impressive.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.80214643,
+    "Score": 0.80214643
+  },
+  {
+    "SentimentText": "My experience with this legal team has been outstanding from start to finish.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.7571032,
+    "Score": 0.7571032
+  },
+  {
+    "SentimentText": "The professionalism and dedication of my attorney were evident throughout the process.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.7972582,
+    "Score": 0.7972582
+  },
+  {
+    "SentimentText": "I am very pleased with the results and the manner in which my case was handled.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.94614327,
+    "Score": 0.94614327
+  },
+  {
+    "SentimentText": "The attorney provided exceptional service and achieved a fantastic outcome for me.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.92549443,
+    "Score": 0.92549443
+  },
+  {
+    "SentimentText": "I appreciate the clear and timely communication from my attorney.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.7509805,
+    "Score": 0.7509805
+  },
+  {
+    "SentimentText": "The attorney's expertise and strategic thinking were crucial in winning my case.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.51989335,
+    "Score": 0.51989335
+  },
+  {
+    "SentimentText": "I was impressed by the attorney's thoroughness and attention to detail.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.63514113,
+    "Score": 0.63514113
+  },
+  {
+    "SentimentText": "The attorney's knowledge and experience were evident in their effective representation.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.8032099,
+    "Score": 0.8032099
+  },
+  {
+    "SentimentText": "I felt well-prepared and supported throughout the legal process.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.5192599,
+    "Score": 0.5192599
+  },
+  {
+    "SentimentText": "The attorney's dedication to my case was truly commendable.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.83245313,
+    "Score": 0.83245313
+  },
+  {
+    "SentimentText": "I am very satisfied with the positive outcome achieved by my attorney.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.6154263,
+    "Score": 0.6154263
+  },
+  {
+    "SentimentText": "The attorney provided excellent guidance and support during a difficult time.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.66008675,
+    "Score": 0.66008675
+  },
+  {
+    "SentimentText": "I am grateful for the attorney's hard work and dedication to my case.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.8956961,
+    "Score": 0.8956961
+  },
+  {
+    "SentimentText": "The attorney's professionalism and commitment were exceptional.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.85390514,
+    "Score": 0.85390514
+  },
+  {
+    "SentimentText": "The legal representation I received exceeded my expectations.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.6840254,
+    "Score": 0.6840254
+  },
+  {
+    "SentimentText": "The legal team provided outstanding service and support.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.6849364,
+    "Score": 0.6849364
+  },
+  {
+    "SentimentText": "The attorney's expertise and dedication made a significant difference in my case.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.57430416,
+    "Score": 0.57430416
+  },
+  {
+    "SentimentText": "I am very pleased with the thorough and professional handling of my case.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.97809297,
+    "Score": 0.97809297
+  },
+  {
+    "SentimentText": "The attorney's attention to detail and commitment were evident throughout the process.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.73577136,
+    "Score": 0.73577136
+  },
+  {
+    "SentimentText": "The attorney's communication skills and responsiveness were excellent.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.94801253,
+    "Score": 0.94801253
+  },
+  {
+    "SentimentText": "The attorney's hard work and dedication to my case were greatly appreciated.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.92614734,
+    "Score": 0.92614734
+  },
+  {
+    "SentimentText": "The legal team was professional, knowledgeable, and supportive.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.9022678,
+    "Score": 0.9022678
+  },
+  {
+    "SentimentText": "I am very satisfied with the quality of legal representation I received.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.8091864,
+    "Score": 0.8091864
+  },
+  {
+    "SentimentText": "The attorney's expertise and strategic thinking were crucial to my case.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.7521687,
+    "Score": 0.7521687
+  },
+  {
+    "SentimentText": "The attorney provided clear and concise legal advice that was very helpful.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.8350038,
+    "Score": 0.8350038
+  },
+  {
+    "SentimentText": "The attorney's dedication and commitment to my case were truly impressive.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.8279691,
+    "Score": 0.8279691
+  },
+  {
+    "SentimentText": "I felt well-supported and informed throughout the legal proceedings.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.62243444,
+    "Score": 0.62243444
+  },
+  {
+    "SentimentText": "The attorney's professionalism and expertise were evident in their representation.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.76330274,
+    "Score": 0.76330274
+  },
+  {
+    "SentimentText": "The legal advice and support I received were exceptional.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.7811473,
+    "Score": 0.7811473
+  },
+  {
+    "SentimentText": "The attorney's thoroughness and attention to detail were greatly appreciated.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.8775318,
+    "Score": 0.8775318
+  },
+  {
+    "SentimentText": "The legal team provided excellent service and achieved a positive outcome.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.96294767,
+    "Score": 0.96294767
+  },
+  {
+    "SentimentText": "The attorney's knowledge and experience were crucial to the success of my case.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.57334024,
+    "Score": 0.57334024
+  },
+  {
+    "SentimentText": "I am very pleased with the outcome and the manner in which my case was handled.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.96285266,
+    "Score": 0.96285266
+  },
+  {
+    "SentimentText": "The attorney's communication skills and responsiveness were outstanding.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.7599975,
+    "Score": 0.7599975
+  },
+  {
+    "SentimentText": "The attorney's hard work and dedication made a significant difference in my case.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.56303954,
+    "Score": 0.56303954
+  },
+  {
+    "SentimentText": "The legal team was professional, supportive, and knowledgeable.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.9016129,
+    "Score": 0.9016129
+  },
+  {
+    "SentimentText": "I am very satisfied with the legal representation I received.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.74112815,
+    "Score": 0.74112815
+  },
+  {
+    "SentimentText": "The attorney's expertise and strategic approach were crucial to my case.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.76103014,
+    "Score": 0.76103014
+  },
+  {
+    "SentimentText": "The attorney provided clear and helpful legal advice.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.7976701,
+    "Score": 0.7976701
+  },
+  {
+    "SentimentText": "The attorney's dedication and commitment to my case were commendable.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.93710834,
+    "Score": 0.93710834
+  },
+  {
+    "SentimentText": "I felt well-prepared and supported throughout the legal proceedings.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.53528434,
+    "Score": 0.53528434
+  },
+  {
+    "SentimentText": "The attorney's professionalism and commitment were exceptional.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.85390514,
+    "Score": 0.85390514
+  },
+  {
+    "SentimentText": "The legal advice and representation I received exceeded my expectations.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.89831316,
+    "Score": 0.89831316
+  },
+  {
+    "SentimentText": "The attorney's thoroughness and attention to detail were impressive.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.7228259,
+    "Score": 0.7228259
+  },
+  {
+    "SentimentText": "The legal team provided outstanding service and support.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.6849364,
+    "Score": 0.6849364
+  },
+  {
+    "SentimentText": "The attorney's expertise and dedication were evident in their effective representation.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.9206027,
+    "Score": 0.9206027
+  },
+  {
+    "SentimentText": "I am very pleased with the outcome and the manner in which my case was handled.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.96285266,
+    "Score": 0.96285266
+  },
+  {
+    "SentimentText": "The attorney's communication skills and responsiveness were excellent.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.94801253,
+    "Score": 0.94801253
+  },
+  {
+    "SentimentText": "The attorney's hard work and dedication to my case were greatly appreciated.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.92614734,
+    "Score": 0.92614734
+  },
+  {
+    "SentimentText": "The legal team was professional, knowledgeable, and supportive.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.9022678,
+    "Score": 0.9022678
+  },
+  {
+    "SentimentText": "I am very satisfied with the quality of legal representation I received.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.8091864,
+    "Score": 0.8091864
+  },
+  {
+    "SentimentText": "The attorney's expertise and strategic thinking were crucial to my case.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.7521687,
+    "Score": 0.7521687
+  },
+  {
+    "SentimentText": "The attorney provided clear and concise legal advice that was very helpful.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.8350038,
+    "Score": 0.8350038
+  },
+  {
+    "SentimentText": "The attorney's dedication and commitment to my case were truly impressive.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.8279691,
+    "Score": 0.8279691
+  },
+  {
+    "SentimentText": "I felt well-supported and informed throughout the legal proceedings.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.62243444,
+    "Score": 0.62243444
+  },
+  {
+    "SentimentText": "The attorney's professionalism and expertise were evident in their representation.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.76330274,
+    "Score": 0.76330274
+  },
+  {
+    "SentimentText": "The legal advice and support I received were exceptional.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.7811473,
+    "Score": 0.7811473
+  },
+  {
+    "SentimentText": "The attorney's thoroughness and attention to detail were greatly appreciated.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.8775318,
+    "Score": 0.8775318
+  },
+  {
+    "SentimentText": "The legal team provided excellent service and achieved a positive outcome.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.96294767,
+    "Score": 0.96294767
+  },
+  {
+    "SentimentText": "The attorney's knowledge and experience were crucial to the success of my case.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.57334024,
+    "Score": 0.57334024
+  },
+  {
+    "SentimentText": "I am very pleased with the outcome and the manner in which my case was handled.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.96285266,
+    "Score": 0.96285266
+  },
+  {
+    "SentimentText": "The attorney's communication skills and responsiveness were outstanding.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.7599975,
+    "Score": 0.7599975
+  },
+  {
+    "SentimentText": "The attorney's hard work and dedication made a significant difference in my case.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.56303954,
+    "Score": 0.56303954
+  },
+  {
+    "SentimentText": "The legal team was professional, supportive, and knowledgeable.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.9016129,
+    "Score": 0.9016129
+  },
+  {
+    "SentimentText": "I am very satisfied with the legal representation I received.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.74112815,
+    "Score": 0.74112815
+  },
+  {
+    "SentimentText": "The attorney's expertise and strategic approach were crucial to my case.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.76103014,
+    "Score": 0.76103014
+  },
+  {
+    "SentimentText": "The attorney provided clear and helpful legal advice.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.7976701,
+    "Score": 0.7976701
+  },
+  {
+    "SentimentText": "The attorney's dedication and commitment to my case were commendable.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.93710834,
+    "Score": 0.93710834
+  },
+  {
+    "SentimentText": "I felt well-prepared and supported throughout the legal proceedings.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.53528434,
+    "Score": 0.53528434
+  },
+  {
+    "SentimentText": "The attorney's professionalism and commitment were exceptional.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.85390514,
+    "Score": 0.85390514
+  },
+  {
+    "SentimentText": "The legal advice and representation I received exceeded my expectations.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.89831316,
+    "Score": 0.89831316
+  },
+  {
+    "SentimentText": "The attorney's thoroughness and attention to detail were impressive.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.7228259,
+    "Score": 0.7228259
+  },
+  {
+    "SentimentText": "The legal team provided outstanding service and support.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.6849364,
+    "Score": 0.6849364
+  },
+  {
+    "SentimentText": "The attorney's expertise and dedication were evident in their effective representation.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.9206027,
+    "Score": 0.9206027
+  },
+  {
+    "SentimentText": "I am very pleased with the outcome and the manner in which my case was handled.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.96285266,
+    "Score": 0.96285266
+  },
+  {
+    "SentimentText": "The attorney's communication skills and responsiveness were excellent.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.94801253,
+    "Score": 0.94801253
+  },
+  {
+    "SentimentText": "The attorney's hard work and dedication to my case were greatly appreciated.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.92614734,
+    "Score": 0.92614734
+  },
+  {
+    "SentimentText": "The legal team was professional, knowledgeable, and supportive.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.9022678,
+    "Score": 0.9022678
+  },
+  {
+    "SentimentText": "I am very satisfied with the quality of legal representation I received.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.8091864,
+    "Score": 0.8091864
+  },
+  {
+    "SentimentText": "The attorney's expertise and strategic thinking were crucial to my case.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.7521687,
+    "Score": 0.7521687
+  },
+  {
+    "SentimentText": "The attorney provided clear and concise legal advice that was very helpful.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.8350038,
+    "Score": 0.8350038
+  },
+  {
+    "SentimentText": "The attorney's dedication and commitment to my case were truly impressive.",
+    "Sentiment": true,
+    "Prediction": true,
+    "Probability": 0.8279691,
+    "Score": 0.8279691
+  },
+  {
+    "SentimentText": "I was disappointed with the lack of communication from my attorney.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.044907298,
+    "Score": 0.044907298
+  },
+  {
+    "SentimentText": "The legal advice I received was confusing and not helpful.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.0385876,
+    "Score": 0.0385876
+  },
+  {
+    "SentimentText": "The attorney did not seem dedicated to my case.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.05507333,
+    "Score": 0.05507333
+  },
+  {
+    "SentimentText": "I felt that my case was not given the attention it deserved.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.033606205,
+    "Score": 0.033606205
+  },
+  {
+    "SentimentText": "The attorney's strategy was ineffective and led to a poor outcome.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.059209216,
+    "Score": 0.059209216
+  },
+  {
+    "SentimentText": "I found the attorney's fees to be excessively high for the service provided.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.4012997,
+    "Score": 0.4012997
+  },
+  {
+    "SentimentText": "The attorney was often unavailable and difficult to reach.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.07921514,
+    "Score": 0.07921514
+  },
+  {
+    "SentimentText": "I was not kept informed about the progress of my case.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.095602475,
+    "Score": 0.095602475
+  },
+  {
+    "SentimentText": "The attorney's representation did not meet my expectations.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.062147018,
+    "Score": 0.062147018
+  },
+  {
+    "SentimentText": "I felt that my concerns were not taken seriously.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.008468594,
+    "Score": 0.008468594
+  },
+  {
+    "SentimentText": "I did not feel confident in the attorney's ability to handle my case.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.35656637,
+    "Score": 0.35656637
+  },
+  {
+    "SentimentText": "The legal team was disorganized and uncoordinated.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.32294488,
+    "Score": 0.32294488
+  },
+  {
+    "SentimentText": "I was disappointed with the overall outcome of my case.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.15968183,
+    "Score": 0.15968183
+  },
+  {
+    "SentimentText": "The attorney did not seem knowledgeable about the specifics of my case.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.09574196,
+    "Score": 0.09574196
+  },
+  {
+    "SentimentText": "I felt that my case was not a priority for the attorney.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.012053984,
+    "Score": 0.012053984
+  },
+  {
+    "SentimentText": "The attorney's lack of preparation negatively impacted my case.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.33906174,
+    "Score": 0.33906174
+  },
+  {
+    "SentimentText": "I did not receive the level of service I expected from the legal team.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.025897313,
+    "Score": 0.025897313
+  },
+  {
+    "SentimentText": "The attorney's handling of my case was disappointing.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.06904953,
+    "Score": 0.06904953
+  },
+  {
+    "SentimentText": "I felt that the attorney did not listen to my concerns.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.016847063,
+    "Score": 0.016847063
+  },
+  {
+    "SentimentText": "The legal process was poorly explained to me by the attorney.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.040310275,
+    "Score": 0.040310275
+  },
+  {
+    "SentimentText": "I was unhappy with the attorney's lack of professionalism.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.23724356,
+    "Score": 0.23724356
+  },
+  {
+    "SentimentText": "The attorney's approach did not inspire confidence.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.014909985,
+    "Score": 0.014909985
+  },
+  {
+    "SentimentText": "I felt neglected and unsupported throughout my case.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.46646026,
+    "Score": 0.46646026
+  },
+  {
+    "SentimentText": "The attorney did not seem invested in achieving a positive outcome.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.018390372,
+    "Score": 0.018390372
+  },
+  {
+    "SentimentText": "I was frustrated with the attorney's lack of communication.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.16200441,
+    "Score": 0.16200441
+  },
+  {
+    "SentimentText": "The legal representation I received was inadequate.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.3366529,
+    "Score": 0.3366529
+  },
+  {
+    "SentimentText": "The attorney's performance did not justify the high fees charged.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.081665255,
+    "Score": 0.081665255
+  },
+  {
+    "SentimentText": "I did not feel that the attorney was on my side.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.026215248,
+    "Score": 0.026215248
+  },
+  {
+    "SentimentText": "The attorney's advice led to an unfavorable result.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.12793517,
+    "Score": 0.12793517
+  },
+  {
+    "SentimentText": "I felt that my case was mishandled by the attorney.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.111339636,
+    "Score": 0.111339636
+  },
+  {
+    "SentimentText": "The attorney did not provide timely updates on my case.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.021136288,
+    "Score": 0.021136288
+  },
+  {
+    "SentimentText": "I was disappointed with the lack of progress in my case.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.049762487,
+    "Score": 0.049762487
+  },
+  {
+    "SentimentText": "I felt that the attorney was not transparent about the potential outcomes.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.032565076,
+    "Score": 0.032565076
+  },
+  {
+    "SentimentText": "The attorney's attitude was unprofessional and dismissive.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.39505348,
+    "Score": 0.39505348
+  },
+  {
+    "SentimentText": "The attorney did not provide adequate support during a difficult time.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.0065138964,
+    "Score": 0.0065138964
+  },
+  {
+    "SentimentText": "I felt that the attorney was not fully committed to my case.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.0404858,
+    "Score": 0.0404858
+  },
+  {
+    "SentimentText": "The attorney's lack of preparation was evident in court.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.3577306,
+    "Score": 0.3577306
+  },
+  {
+    "SentimentText": "I experienced significant frustration due to the attorney's incompetence.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.40440744,
+    "Score": 0.40440744
+  },
+  {
+    "SentimentText": "The legal team failed to meet my expectations.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.40330482,
+    "Score": 0.40330482
+  },
+  {
+    "SentimentText": "The attorney's advice was not practical or useful.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.029120503,
+    "Score": 0.029120503
+  },
+  {
+    "SentimentText": "I felt that the attorney was not honest about the strengths and weaknesses of my case.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.11360115,
+    "Score": 0.11360115
+  },
+  {
+    "SentimentText": "I was disappointed with the overall quality of the legal service.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.055443466,
+    "Score": 0.055443466
+  },
+  {
+    "SentimentText": "The attorney's lack of attention to detail was concerning.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.18539883,
+    "Score": 0.18539883
+  },
+  {
+    "SentimentText": "I felt that the attorney did not prioritize my case.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.032451615,
+    "Score": 0.032451615
+  },
+  {
+    "SentimentText": "The attorney's communication skills were poor.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.06248132,
+    "Score": 0.06248132
+  },
+  {
+    "SentimentText": "I was unhappy with the attorney's lack of engagement in my case.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.12919778,
+    "Score": 0.12919778
+  },
+  {
+    "SentimentText": "The attorney did not seem to have a clear strategy.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.021925403,
+    "Score": 0.021925403
+  },
+  {
+    "SentimentText": "I felt that the attorney's performance was below standard.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.11475204,
+    "Score": 0.11475204
+  },
+  {
+    "SentimentText": "The attorney's handling of my case was frustratingly slow.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.075747825,
+    "Score": 0.075747825
+  },
+  {
+    "SentimentText": "I was disappointed with the attorney's lack of responsiveness.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.025064258,
+    "Score": 0.025064258
+  },
+  {
+    "SentimentText": "The legal advice I received was vague and unhelpful.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.48189753,
+    "Score": 0.48189753
+  },
+  {
+    "SentimentText": "I felt that the attorney was not invested in my case.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.008802426,
+    "Score": 0.008802426
+  },
+  {
+    "SentimentText": "The attorney's lack of professionalism was concerning.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.1649253,
+    "Score": 0.1649253
+  },
+  {
+    "SentimentText": "The attorney did not provide clear explanations of the legal process.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.039757743,
+    "Score": 0.039757743
+  },
+  {
+    "SentimentText": "I was dissatisfied with the attorney's overall performance.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.45884278,
+    "Score": 0.45884278
+  },
+  {
+    "SentimentText": "I felt that my case was not handled with the care it deserved.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.06852821,
+    "Score": 0.06852821
+  },
+  {
+    "SentimentText": "The attorney's advice was often contradictory.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.4378392,
+    "Score": 0.4378392
+  },
+  {
+    "SentimentText": "I was unhappy with the attorney's lack of transparency.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.118051566,
+    "Score": 0.118051566
+  },
+  {
+    "SentimentText": "The attorney did not seem knowledgeable about relevant legal issues.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.025275098,
+    "Score": 0.025275098
+  },
+  {
+    "SentimentText": "I felt that the attorney's representation was inadequate.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.16405407,
+    "Score": 0.16405407
+  },
+  {
+    "SentimentText": "The attorney's lack of preparation was evident during meetings.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.2116393,
+    "Score": 0.2116393
+  },
+  {
+    "SentimentText": "I was disappointed with the overall service provided by the legal team.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.071936645,
+    "Score": 0.071936645
+  },
+  {
+    "SentimentText": "The attorney's lack of communication was frustrating.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.15766048,
+    "Score": 0.15766048
+  },
+  {
+    "SentimentText": "I felt that my case was not a priority for the attorney.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.012053984,
+    "Score": 0.012053984
+  },
+  {
+    "SentimentText": "The attorney's advice led to a negative outcome.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.36947155,
+    "Score": 0.36947155
+  },
+  {
+    "SentimentText": "I experienced significant frustration due to the attorney's incompetence.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.40440744,
+    "Score": 0.40440744
+  },
+  {
+    "SentimentText": "The attorney did not provide the level of service I expected.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.01904929,
+    "Score": 0.01904929
+  },
+  {
+    "SentimentText": "I was unhappy with the attorney's lack of responsiveness.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.18038467,
+    "Score": 0.18038467
+  },
+  {
+    "SentimentText": "The attorney's handling of my case was disappointing.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.06904953,
+    "Score": 0.06904953
+  },
+  {
+    "SentimentText": "I felt that the attorney did not listen to my concerns.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.016847063,
+    "Score": 0.016847063
+  },
+  {
+    "SentimentText": "The attorney's performance did not meet my expectations.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.10094014,
+    "Score": 0.10094014
+  },
+  {
+    "SentimentText": "I was frustrated with the attorney's lack of communication.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.16200441,
+    "Score": 0.16200441
+  },
+  {
+    "SentimentText": "The attorney did not seem to have a clear strategy.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.021925403,
+    "Score": 0.021925403
+  },
+  {
+    "SentimentText": "I was disappointed with the overall quality of the legal service.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.055443466,
+    "Score": 0.055443466
+  },
+  {
+    "SentimentText": "The attorney's lack of attention to detail was concerning.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.18539883,
+    "Score": 0.18539883
+  },
+  {
+    "SentimentText": "I felt that the attorney did not prioritize my case.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.032451615,
+    "Score": 0.032451615
+  },
+  {
+    "SentimentText": "The attorney's advice was not practical or useful.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.029120503,
+    "Score": 0.029120503
+  },
+  {
+    "SentimentText": "The attorney's lack of professionalism was concerning.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.1649253,
+    "Score": 0.1649253
+  },
+  {
+    "SentimentText": "I felt that the attorney was not fully committed to my case.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.0404858,
+    "Score": 0.0404858
+  },
+  {
+    "SentimentText": "The attorney's lack of preparation was evident in court.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.3577306,
+    "Score": 0.3577306
+  },
+  {
+    "SentimentText": "I was dissatisfied with the attorney's overall performance.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.45884278,
+    "Score": 0.45884278
+  },
+  {
+    "SentimentText": "The attorney's handling of my case was frustratingly slow.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.075747825,
+    "Score": 0.075747825
+  },
+  {
+    "SentimentText": "I felt that the attorney was not transparent about the potential outcomes.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.032565076,
+    "Score": 0.032565076
+  },
+  {
+    "SentimentText": "I was disappointed with the attorney's lack of responsiveness.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.025064258,
+    "Score": 0.025064258
+  },
+  {
+    "SentimentText": "The attorney's lack of communication was frustrating.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.15766048,
+    "Score": 0.15766048
+  },
+  {
+    "SentimentText": "I felt that the attorney's performance was below standard.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.11475204,
+    "Score": 0.11475204
+  },
+  {
+    "SentimentText": "The attorney did not provide clear explanations of the legal process.",
+    "Sentiment": false,
+    "Prediction": false,
+    "Probability": 0.039757743,
+    "Score": 0.039757743
+  }
+]
