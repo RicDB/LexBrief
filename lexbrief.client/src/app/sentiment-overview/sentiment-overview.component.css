@@ -22,3 +22,24 @@
   height: auto;
   width: auto;
 }
+
+.yellow {
+    color: orange;
+    text-align: center;
+}
+
+.red {
+  color: red;
+  text-align: center;
+}
+.green {
+  color: green;
+  text-align: center;
+}
+
+.summary {
+  border: 1px solid lightgray;
+  border-radius: 8px;
+  padding: 12px;
+  font-weight: 500;
+}

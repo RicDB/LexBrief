@@ -30,4 +30,7 @@ export interface CommentDto {
 
 export interface CommentsSummaryDto {
   content: string;
+  positive: string;
+  neutral: string;
+  negative: string;
 }

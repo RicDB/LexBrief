@@ -19,7 +19,7 @@
   .center {
     flex: 3;
     display: grid;
-    min-width: 500px;
+    max-width: 40%;
     grid-template-rows: 1fr auto;
 
     .document-preview {

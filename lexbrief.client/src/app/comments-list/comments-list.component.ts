@@ -19,6 +19,7 @@ export class CommentsListComponent implements OnInit {
   textValue: string;
   inputControl: FormControl = new FormControl('');
   commentSummary: string;
+  commentSentiment: any;
 
   @Input() set refreshComments(value: number) {
     if (value === undefined)
@@ -41,7 +42,7 @@ export class CommentsListComponent implements OnInit {
       tap((res: CommentDto[]) => {
         this.comments = res;
       }),
-      switchMap((res) => this.service.getCommentsSummary(res).pipe(
+      switchMap((res) => this.service.getCommentsSummary(this.comments).pipe(
         tap((res) => {
           this.commentSummary = res.content;
         })
@@ -56,7 +57,13 @@ export class CommentsListComponent implements OnInit {
     return this.service.addComment(newItem).pipe(
       tap((res: CommentDto) => {
         this.comments = [...this.comments, res]
-      })
+      }),
+      switchMap((res) => this.service.getCommentsSummary(this.comments).pipe(
+        tap((res) => {
+          this.commentSentiment = res;
+          this.commentSummary = res.content;
+        })
+      ))
     ).subscribe();
   }
 

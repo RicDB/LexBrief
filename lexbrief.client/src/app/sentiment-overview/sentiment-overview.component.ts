@@ -13,6 +13,16 @@ export class SentimentOverviewComponent implements OnInit {
   @Input() summary!: string;
   constructor() {
   }
+  @Input() set commentSentiment(value: any) {
+    if (!value) return;
+    this.positive = value.positive;
+    this.neutral = value.neutral;
+    this.negative = value.negative;
+  }
+
+  positive!: string;
+  negative!: string;
+  neutral!: string;
 
   ngOnInit(): void {
 

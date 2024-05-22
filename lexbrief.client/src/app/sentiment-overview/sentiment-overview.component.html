@@ -1,18 +1,21 @@
 <div class="container">
   <div class="row">
     <div class="col-md-4">
-      <div class="p-3 text-black text-center"><mat-icon class="icon-smile">sentiment_very_satisfied</mat-icon></div>
+      <div class="p-2 text-black text-center"><mat-icon class="icon-smile">sentiment_very_satisfied</mat-icon></div>
+      <div class="green">{{positive}}</div>
     </div>
     <div class="col-md-4">
-      <div class="p-3 text-black text-center"><mat-icon class="icon-neutral">sentiment_neutral</mat-icon></div>
+      <div class="p-2 text-black text-center"><mat-icon class="icon-neutral">sentiment_neutral</mat-icon></div>
+      <div class="yellow">{{neutral}}</div>
     </div>
     <div class="col-md-4">
-      <div class="p-3 text-black text-center"><mat-icon class="icon-sad">sentiment_dissatisfied</mat-icon></div>
+      <div class="p-2 text-black text-center"><mat-icon class="icon-sad">sentiment_dissatisfied</mat-icon></div>
+      <div class="red">{{negative}}</div>
     </div>
   </div>
 </div>
 
-<div class="row">
+<div class="row pt-3 summary">
   <div class="col-md-12">
     <span>{{summary}}</span>
   </div>
