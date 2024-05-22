@@ -10,6 +10,6 @@ namespace BLL.DTOs
     {
         public string Content { get; set; }
         public float Sentiment { get; set; }
-        public string OwnerInitials { get; set; }
+        public string? OwnerInitials { get; set; }
     }
 }

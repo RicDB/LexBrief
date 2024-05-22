@@ -41,9 +41,9 @@ export class CommentsListComponent implements OnInit {
       tap((res: CommentDto[]) => {
         this.comments = res;
       }),
-      switchMap(() => this.service.getCommentsSummary(this.comments).pipe(
+      switchMap((res) => this.service.getCommentsSummary(res).pipe(
         tap((res) => {
-          this.commentSummary = res;
+          this.commentSummary = res.content;
         })
        )
       )
