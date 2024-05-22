@@ -22,6 +22,6 @@
     </mat-form-field>
     <button mat-fab (click)="addComment()"><mat-icon>send</mat-icon></button>
   </div>
+  <app-sentiment-overview [summary]="commentSummary" class="sentiment-overview"></app-sentiment-overview>
 </div>
 
-<app-sentiment-overview [summary]="commentSummary" class="sentiment-overview"></app-sentiment-overview>
