@@ -1,1 +1,6 @@
-<div>COMMENTS</div>
+<ul>
+  <li *ngFor="let comment of comments">
+    <h3>{{ comment.ownerInitials }}</h3>
+    <p>{{ comment.content }}</p>
+  </li>
+</ul>
