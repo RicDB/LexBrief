@@ -1,6 +1,6 @@
 import {Component, EventEmitter, OnInit, Output} from '@angular/core';
 import {CommonModule} from "@angular/common";
-import { DocumentDto, DocumentsListService } from "./documents-list.service";
+import { DocumentDetailDto, DocumentDto, DocumentsListService } from "./documents-list.service";
 import { tap } from "rxjs";
 import { MaterialModule } from '../material.module';
 import { MatTableDataSource } from '@angular/material/table';
@@ -15,9 +15,9 @@ import { MatTableDataSource } from '@angular/material/table';
 })
 export class DocumentsListComponent implements OnInit {
   dataSource!: MatTableDataSource<DocumentDto>;
-  //documents: any[];
+  document!: DocumentDetailDto;
   displayedColumns: string[] = ['id', 'title'];
-  @Output() shareDocument = new EventEmitter<string>();
+  @Output() shareDocument = new EventEmitter<DocumentDetailDto>();
 
 
   constructor(private  service: DocumentsListService) {
@@ -35,8 +35,8 @@ export class DocumentsListComponent implements OnInit {
   onSelectionChange(event: any) {
     this.service.getDocument(event.id).pipe(
       tap((document) => {
-        const doc = document;
-        this.shareDocument.emit(doc)
+        this.document = document;
+        this.shareDocument.emit(this.document)
       })
     ).subscribe();
   }

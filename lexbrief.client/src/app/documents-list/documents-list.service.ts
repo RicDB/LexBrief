@@ -1,6 +1,6 @@
 // document.service.ts
 import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpParams } from '@angular/common/http';
 
 @Injectable({
   providedIn: 'root'
@@ -14,11 +14,15 @@ export class DocumentsListService {
   }
 
   getDocument(id: number) {
-    return this.http.get<string>('/api/document');
+    return this.http.get<DocumentDetailDto>( `/api/document/${id}`);
   }
 }
 
 export interface DocumentDto {
   id: number;
   title: string;
+}
+
+export interface DocumentDetailDto extends DocumentDto {
+  content: string;
 }
