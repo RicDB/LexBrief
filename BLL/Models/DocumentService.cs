@@ -72,16 +72,6 @@ namespace BLL.Models
 
             try
             {
-                string key = "1e0628f09d2b4a4dab569af8613c155d";
-
-                string endpoint = "https://chat-fast-25bbd9bb.openai.azure.com/";
-
-                string engine = "gpt-35-turbo-0613";
-
-                // Configure OpenAI API client
-
-                OpenAIClient client = new(new Uri(endpoint), new AzureKeyCredential(key));
-
                 // Load PDF file and extract text
 
                 StringBuilder fullText = new StringBuilder();
@@ -101,25 +91,10 @@ namespace BLL.Models
                 // Ask questions and get answers
 
                 string[] questions = {
-                    "What is the document about? I want a summary of up to 10 words. Do not include the number of words used in the summary"
+                    "What is the document about? I want a summary of up to 25 words. Do not include the number of words used in the summary"
                 };
 
-                foreach (string question in questions)
-                {
-                    string fullPrompt = prompt + question;
-
-                    ChatCompletionsOptions completionsOptions = new ChatCompletionsOptions()
-                    {
-                        Messages = { new ChatRequestUserMessage(fullPrompt) },
-                        DeploymentName = engine
-                    };
-
-                    Response<ChatCompletions> response = client.GetChatCompletions(completionsOptions);
-
-                    ChatResponseMessage responseMessage = response.Value.Choices[0].Message;
-
-                    summury = responseMessage.Content;
-                }
+                summury = await Helpers.Helpers.ExtractSummary(prompt, questions);
             }
             catch (Exception ex)
             {

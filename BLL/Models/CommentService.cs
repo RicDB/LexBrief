@@ -45,8 +45,56 @@ namespace BLL.Models
         }
 
         public IList<CommentDto> GetComments()
-        {          
-            return commentsList.OrderBy(x => new Random().Next()).Take(new Random().Next(5, 20)).ToList();
+        {
+            bool isPositiveCase = new Random().Next(0, 2) > 0;
+
+            int posMin = isPositiveCase ? 3 : 1;
+            int posMax = isPositiveCase ? 10 : 3;
+
+            int negMin = !isPositiveCase ? 3 : 1;
+            int negMax = !isPositiveCase ? 10 : 3;
+
+            var positiveCommentList = commentsList.Where(it=>it.Sentiment > 0.5f).OrderBy(x => new Random().Next()).Take(new Random().Next(posMin, posMax)).ToList();
+            var negativeCommentList = commentsList.Where(it => it.Sentiment < 0.5f).OrderBy(x => new Random().Next()).Take(new Random().Next(negMin, negMax)).ToList();
+            return positiveCommentList.Concat(negativeCommentList).OrderBy(x => new Random().Next()).ToList();
+        }
+
+        public async Task<string> GetCommentsSummary(IEnumerable<CommentDto> comments)
+        {
+            string commentsSummary = string.Empty;
+
+            var listComments = comments.ToList();
+            string listCommentsString = string.Empty;
+
+            listComments.ForEach(it => listCommentsString += $"- {it.Content};{Environment.NewLine}");
+
+            commentsSummary = await ExtractSummaryFromComments(listCommentsString);
+
+            return commentsSummary;
+        }
+
+        private async Task<string> ExtractSummaryFromComments(string stringComments)
+        {
+            string summury = string.Empty;
+
+            try
+            {
+                string prompt = $"This is a list of comments \n\n{stringComments}\n\n";
+
+                // Ask questions and get answers
+
+                string[] questions = {
+                    "Could you create a summary without bullet point in one sentence in max 25 words?",
+                };
+
+                summury = await Helpers.Helpers.ExtractSummary(prompt, questions);
+            }
+            catch (Exception ex)
+            {
+                summury = $"Error creating summary - ex: {ex.Message}";
+            }
+
+            return summury;
         }
     }
 }
