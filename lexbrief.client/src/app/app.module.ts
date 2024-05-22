@@ -10,6 +10,7 @@ import { RouterOutlet } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { MaterialModule } from './material.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { SentimentOverviewComponent } from './sentiment-overview/sentiment-overview.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     CommentsListComponent,
     PreviewDocumentComponent,
     MaterialModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    SentimentOverviewComponent
   ],
   providers: [],
   bootstrap: [AppComponent]

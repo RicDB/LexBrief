@@ -1,1 +1,4 @@
-<div>PREVIEW</div>
+<div class="container mat-elevation-z8">
+    <h3 *ngIf="document">{{document.title}}</h3>
+    <iframe *ngIf="document" [src]="preview"></iframe>
+</div>

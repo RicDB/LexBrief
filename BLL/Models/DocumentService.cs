@@ -2,6 +2,7 @@
 using Azure.AI.OpenAI;
 using BLL.Contracts;
 using BLL.DTOs;
+using System.Buffers.Text;
 using System.Reflection;
 using System.Text;
 using UglyToad.PdfPig;
@@ -25,7 +26,7 @@ namespace BLL.Models
             {
                 Id = id,
                 Title = Path.GetFileName(filePath),
-                Content = File.ReadAllText(filePath),
+                Content = Convert.ToBase64String(File.ReadAllBytes(filePath)),
                 Summary = await ExtractSummaryFromDocument(filePath)
             };
 

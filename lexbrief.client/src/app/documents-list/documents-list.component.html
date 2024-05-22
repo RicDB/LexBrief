@@ -1,7 +1,8 @@
 
 
 <!-- data-table.component.html -->
-<div class="mat-elevation-z8">
+<div class="mat-elevation-z8 container">
+  <img src="../../assets/logo.png" alt="">
   <table mat-table [dataSource]="dataSource" matSort class="mat-table">
     <!-- ID Column -->
     <ng-container matColumnDef="id">
@@ -16,7 +17,7 @@
     </ng-container>
 
     <!-- Riga della tabella -->
-    <tr mat-row *matRowDef="let row; columns: displayedColumns" (click)="onSelectionChange(row)"></tr>
+    <tr mat-row style="cursor: pointer;" *matRowDef="let row; columns: displayedColumns" (click)="onSelectionChange(row)"></tr>
 
   </table>  
 </div>

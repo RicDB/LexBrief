@@ -10,12 +10,23 @@
         flex: 1;
         height: 100%;
     }
-    .document-preview{
-        flex: 2;
-        height: 100%;
-    }
+
     .comment-section{
         flex: 1;
         height: 100%;
     }
+
+  .center {
+    display: grid;
+    min-width: 500px;
+    grid-template-rows: 1fr auto;
+      .document-preview {
+        flex: 1;
+        height: 100%;
+      }
+    .sentiment-overview {
+      flex: 2;
+      height: 100%;
+    }
+   }
 }

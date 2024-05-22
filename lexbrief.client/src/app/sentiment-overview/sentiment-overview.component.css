@@ -1,0 +1,26 @@
+.container {
+  background: #ffffff;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.icon-smile {
+  color: green;
+  font-size: 60px;
+  height: auto;
+  width: auto;
+}
+
+.icon-neutral {
+  color: orange;
+  font-size: 60px;
+  height: auto;
+  width: auto;
+}
+
+.icon-sad {
+  color: red;
+  font-size: 60px;
+  height: auto;
+  width: auto;
+}
