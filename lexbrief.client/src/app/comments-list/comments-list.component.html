@@ -3,9 +3,10 @@
     <li *ngFor="let comment of comments" class="comment">
       <div class="content">
         <p class="text">{{ comment.content }}</p>
-        <p style="color: red;" *ngIf="comment.sentiment <= 0.4"><b>Negative</b></p>
+<!--       <p style="color: red;" *ngIf="comment.sentiment <= 0.4"><b>Negative</b></p>
         <p style="color: orange;" *ngIf="comment.sentiment > 0.4 && comment.sentiment < 0.6"><b>Neutral</b></p>
         <p style="color: green;" *ngIf="comment.sentiment >= 0.6"><b>Positive</b></p>
+  -->
       </div>
       <div class="owner">
         <div class="initials">
@@ -15,10 +16,10 @@
     </li>
   </ul>
   <div class="input-section">
-    <mat-form-field class="field">
-      <mat-label>Leave a comment</mat-label>
-      <textarea matInput></textarea>
+    <mat-form-field appearance="fill">
+      <mat-label>Leave comment</mat-label>
+      <textarea matInput [(ngModel)]="textValue" placeholder="Write something..."></textarea>
     </mat-form-field>
-    <button mat-fab><mat-icon>send</mat-icon></button>
+    <button mat-fab (click)="addComment()"><mat-icon>send</mat-icon></button>
   </div>
 </div>

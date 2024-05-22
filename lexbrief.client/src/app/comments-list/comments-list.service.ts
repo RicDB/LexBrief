@@ -12,11 +12,15 @@ export class CommentsListService {
   getComments() {
     return this.http.get<CommentDto[]>('/api/comments');
   }
+
+  addComment(comment: CommentDto) {
+    return this.http.post<CommentDto>('/api/comments', { comment });
+  }
+}
+export interface CommentDto {
+  id?: number;
+  content?: string;
+  sentiment?: number;
+  ownerInitials?: string;
 }
 
-export interface CommentDto {
-  id: number;
-  content: string;
-  sentiment: number;
-  ownerInitials: string;
-}
