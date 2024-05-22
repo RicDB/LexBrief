@@ -1,6 +1,7 @@
 ﻿using BLL.Contracts;
 using BLL.DTOs;
 using Newtonsoft.Json;
+using System.Linq;
 using System.Reflection;
 
 namespace BLL.Models
@@ -70,7 +71,20 @@ namespace BLL.Models
 
             commentsSummary = await ExtractSummaryFromComments(listCommentsString);
 
-            return new CommentsSummaryDto() { Content = commentsSummary };
+            int positiveCount = listComments.Count(it => it.Sentiment > 0.67f);
+            int negativeCount = listComments.Count(it => it.Sentiment < 0.33f);
+
+            var positive = (decimal)positiveCount / (decimal)listComments.Count();
+            var negative = (decimal)negativeCount / (decimal)listComments.Count();
+            var neutral = 1 - negative - positive;
+
+            return new CommentsSummaryDto()
+            {
+                Content = commentsSummary,
+                Positive = positive.ToString("P0"),
+                Neutral = neutral.ToString("P0"),
+                Negative = negative.ToString("P0")
+            };
         }
 
         private async Task<string> ExtractSummaryFromComments(string stringComments)

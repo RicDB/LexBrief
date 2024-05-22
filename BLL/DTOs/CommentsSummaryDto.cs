@@ -9,5 +9,8 @@ namespace BLL.DTOs
     public class CommentsSummaryDto
     {
         public string Content { get; set; }
+        public string Positive { get; set; }
+        public string Neutral { get; set; }
+        public string Negative { get; set; }
     }
 }
