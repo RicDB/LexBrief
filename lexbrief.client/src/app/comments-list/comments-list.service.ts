@@ -14,7 +14,7 @@ export class CommentsListService {
   }
 
   getCommentsSummary(comments: CommentDto[]) {
-    return this.http.post<string>('/api/commentsSummary', { comments });
+    return this.http.post<string>('/api/comments/summary', { comments });
   }
 
   addComment(comment: CommentDto) {
