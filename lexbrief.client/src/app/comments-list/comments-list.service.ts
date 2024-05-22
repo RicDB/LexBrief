@@ -1,6 +1,6 @@
 // document.service.ts
 import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 
 @Injectable({
   providedIn: 'root'
@@ -14,11 +14,11 @@ export class CommentsListService {
   }
 
   getCommentsSummary(comments: CommentDto[]) {
-    return this.http.post<string>('/api/comments/summary', { comments });
+    return this.http.post<CommentsSummaryDto>('/api/comments/summary', comments);
   }
 
   addComment(comment: CommentDto) {
-    return this.http.post<CommentDto>('/api/comments', { comment });
+    return this.http.post<CommentDto>('/api/comments', comment);
   }
 }
 export interface CommentDto {
@@ -28,3 +28,6 @@ export interface CommentDto {
   ownerInitials?: string;
 }
 
+export interface CommentsSummaryDto {
+  content: string;
+}
