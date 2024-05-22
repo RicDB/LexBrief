@@ -32,7 +32,7 @@ namespace BLL.Models
 
                 List<SentimentAnalysis.SentimentPrediction> desData = JsonConvert.DeserializeObject<List<SentimentAnalysis.SentimentPrediction>>(data);
 
-                commentsList = desData.Select(x => new CommentDto { Content = x.SentimentText, Sentiment = x.Score, OwnerInitials = ownerList[new Random().Next(0, ownerList.Count - 1)] });
+                commentsList = desData.Select(x => new CommentDto { Content = x.SentimentText, Sentment = x.Score, OwnerInitials = ownerList[new Random().Next(0, ownerList.Count - 1)] });
             }
 
         }
@@ -40,7 +40,7 @@ namespace BLL.Models
         public CommentDto AddComment(CommentDto comment)
         {
             var sentimentPrediction = sentimentAnalysis.Analysis(comment.Content);
-            comment.Sentiment = sentimentPrediction.Probability;
+            comment.Sentment = sentimentPrediction.Probability;
             return comment;
         }
 
