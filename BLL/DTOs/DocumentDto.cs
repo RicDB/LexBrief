@@ -9,7 +9,7 @@ namespace BLL.DTOs
     public class DocumentDto
     {
         public int Id { get; set; }
-        public string Name { get; set; }
+        public string Title { get; set; }
     }
 
     public class DocumentDetailDto : DocumentDto

@@ -22,7 +22,7 @@ namespace BLL.Models
             var file = new DocumentDetailDto()
             {
                 Id = id,
-                Name = Path.GetFileName(filePath),
+                Title = Path.GetFileName(filePath),
                 Content = File.ReadAllText(filePath)
             };
 
@@ -44,7 +44,7 @@ namespace BLL.Models
                     res.Add(new DocumentDto()
                     {
                         Id = id++,
-                        Name = Path.GetFileName(doc)
+                        Title = Path.GetFileName(doc)
                     });
                 }
             }
