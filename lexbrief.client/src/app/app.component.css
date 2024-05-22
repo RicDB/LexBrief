@@ -1,0 +1,21 @@
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    padding: 1rem;
+    column-gap: 1rem;
+    background-color: lightgray;
+
+    .document-list{
+        flex: 1;
+        height: 100%;
+    }
+    .document-preview{
+        flex: 2;
+        height: 100%;
+    }
+    .comment-section{
+        flex: 1;
+        height: 100%;
+    }
+}

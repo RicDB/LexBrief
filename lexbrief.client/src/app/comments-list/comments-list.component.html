@@ -1,17 +1,24 @@
-
-<ul class="comment-section">
-  <li *ngFor="let comment of comments" class="comment">
-    <div class="content">
-      <p>{{ comment.content }}</p>
-      <p *ngIf="comment.sentiment <= 0.4">Negative</p>
-      <p *ngIf="comment.sentiment > 0.4 && comment.sentiment < 0.6">Negative</p>
-      <p *ngIf="comment.sentiment >= 0.6">Negative</p>
-    </div>
-    <div class="owner">{{ comment.ownerInitials }}</div> 
-  </li>
-</ul>
-<div>
-  <input type="text">
-  <button>Send</button>
+<div class="container">
+  <ul class="comment-section">
+    <li *ngFor="let comment of comments" class="comment">
+      <div class="content">
+        <p class="text">{{ comment.content }}</p>
+        <p style="color: red;" *ngIf="comment.sentiment <= 0.4"><b>Negative</b></p>
+        <p style="color: orange;" *ngIf="comment.sentiment > 0.4 && comment.sentiment < 0.6"><b>Neutral</b></p>
+        <p style="color: green;" *ngIf="comment.sentiment >= 0.6"><b>Positive</b></p>
+      </div>
+      <div class="owner">
+        <div class="initials">
+          {{ comment.ownerInitials }}
+        </div>
+      </div> 
+    </li>
+  </ul>
+  <div class="input-section">
+    <mat-form-field class="field">
+      <mat-label>Leave a comment</mat-label>
+      <textarea matInput></textarea>
+    </mat-form-field>
+    <button mat-fab><mat-icon>send</mat-icon></button>
+  </div>
 </div>
-

@@ -1,25 +1,64 @@
+.container{
+    background-color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
 .comment-section{
-    height: 80vh;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
     overflow: hidden;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 .comment{
     text-decoration: none;
     display: flex;
     flex-direction: row;
+    column-gap: .5rem;
 }
 
 .content{
+    flex: 4;
 
+    .text{
+        padding: 1rem;
+        border-radius: 1.5rem;
+        background-color: lightcyan;
+    }
 }
 
 .owner{
-    height: 5rem;
-    width: 5rem;
+    flex: 1;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.initials{
+    width: 3rem;
+    aspect-ratio: 1/1;
     display: flex;
     align-items: center;
-    justify-items: center;
-    border-style: solid;
+    justify-content: center;
     border-radius: 50%;
+    background-color: aquamarine;
+}
+
+.input-section{
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    column-gap: 1rem;
+    border-style: solid;
+}
+
+.field{
+    width: 100%;
+    height: 100%;
 }

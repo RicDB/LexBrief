@@ -1,26 +1,7 @@
 
 
 <main class="main">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4">
-        <!-- Contenuto della prima colonna -->
-        <div class="p-3 border bg-light">
-          <app-documents-list></app-documents-list>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <!-- Contenuto della seconda colonna -->
-        <div class="p-3 border bg-light">
-          <app-preview-document></app-preview-document>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <!-- Contenuto della terza colonna -->
-        <div class="p-3 border bg-light">
-          <app-comments-list></app-comments-list>
-        </div>
-      </div>
-    </div>
-  </div>
+  <app-documents-list class="document-list"></app-documents-list>
+  <app-preview-document class="document-preview"></app-preview-document>
+  <app-comments-list class="comment-section"></app-comments-list>
 </main>
