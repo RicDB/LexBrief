@@ -17,9 +17,7 @@ export class DocumentsListComponent implements OnInit {
   dataSource!: MatTableDataSource<DocumentDto>;
   document!: DocumentDetailDto;
   displayedColumns: string[] = ['id', 'title'];
-  @Output() shareDocument = new EventEmitter<DocumentDetailDto>();
-
-
+  @Output() shareDocumentId = new EventEmitter<number>();
   constructor(private  service: DocumentsListService) {
   }
 
@@ -28,17 +26,12 @@ export class DocumentsListComponent implements OnInit {
       tap((documents) => {
         //this.documents = documents;
         this.dataSource = new MatTableDataSource(documents);
+        this.shareDocumentId.emit(documents[0].id)
       })
     ).subscribe();
   }
 
   onSelectionChange(event: any) {
-    this.service.getDocument(event.id).pipe(
-      tap((document) => {
-        this.document = document;
-        this.shareDocument.emit(this.document)
-      })
-    ).subscribe();
+    this.shareDocumentId.emit(event.id)
   }
-
 }

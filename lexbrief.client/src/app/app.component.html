@@ -1,7 +1,7 @@
 
 
 <main class="main">
-  <app-documents-list class="document-list"></app-documents-list>
-  <app-preview-document class="document-preview"></app-preview-document>
+  <app-documents-list (shareDocumentId)="docId = $event" class="document-list"></app-documents-list>
+  <app-preview-document [docId]="docId" class="document-preview"></app-preview-document>
   <app-comments-list class="comment-section"></app-comments-list>
 </main>
