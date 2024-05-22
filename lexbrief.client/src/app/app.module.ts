@@ -9,6 +9,7 @@ import { DocumentsListComponent } from './documents-list/documents-list.componen
 import { RouterOutlet } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { MaterialModule } from './material.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { MaterialModule } from './material.module';
     DocumentsListComponent,
     CommentsListComponent,
     PreviewDocumentComponent,
-    MaterialModule
+    MaterialModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
