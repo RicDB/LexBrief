@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, EventEmitter, OnInit, Output} from '@angular/core';
 import {CommonModule} from "@angular/common";
 import { DocumentDto, DocumentsListService } from "./documents-list.service";
 import { tap } from "rxjs";
@@ -17,6 +17,7 @@ export class DocumentsListComponent implements OnInit {
   dataSource!: MatTableDataSource<DocumentDto>;
   //documents: any[];
   displayedColumns: string[] = ['id', 'title'];
+  @Output() shareDocument = new EventEmitter<string>();
 
 
   constructor(private  service: DocumentsListService) {
@@ -32,7 +33,12 @@ export class DocumentsListComponent implements OnInit {
   }
 
   onSelectionChange(event: any) {
-    console.log('Righe selezionate:');
+    this.service.getDocument(event.id).pipe(
+      tap((document) => {
+        const doc = document;
+        this.shareDocument.emit(doc)
+      })
+    ).subscribe();
   }
 
 }

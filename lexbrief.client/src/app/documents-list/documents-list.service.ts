@@ -12,6 +12,10 @@ export class DocumentsListService {
   getDocuments() {
     return this.http.get<DocumentDto[]>('/api/document');   
   }
+
+  getDocument(id: number) {
+    return this.http.get<string>('/api/document');
+  }
 }
 
 export interface DocumentDto {
