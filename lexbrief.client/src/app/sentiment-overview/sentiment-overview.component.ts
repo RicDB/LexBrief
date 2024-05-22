@@ -10,8 +10,7 @@ import { MaterialModule } from '../material.module';
   styleUrls: ['./sentiment-overview.component.css']
 })
 export class SentimentOverviewComponent implements OnInit {
-  @Input() set sentimentDto(dto: any) {
-  }
+  @Input() summary!: string;
   constructor() {
   }
 

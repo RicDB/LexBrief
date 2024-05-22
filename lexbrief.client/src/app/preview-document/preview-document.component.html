@@ -1,4 +1,12 @@
-<div class="container mat-elevation-z8">
-    <h3 *ngIf="document">{{document.title}}</h3>
-    <iframe *ngIf="document" [src]="preview"></iframe>
+<div class="container">
+        <div class="title mat-elevation-z8">
+                <h4 *ngIf="document">{{document.title}}</h4>
+        </div>
+        <div class="content mat-elevation-z8">
+                <h5>About:</h5>
+                <p *ngIf="document">{{document.summary}}</p>
+        </div>
+        <div class="content mat-elevation-z8" *ngIf="!document">
+        </div>
+        <iframe class="content mat-elevation-z8" style="flex: 7;" *ngIf="document" [src]="preview"></iframe>
 </div>

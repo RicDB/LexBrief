@@ -4,7 +4,6 @@
   <app-documents-list (shareDocumentId)="docId = $event" class="document-list"></app-documents-list>
   <div class="center">
       <app-preview-document [docId]="docId" class="document-preview"></app-preview-document>
-      <app-sentiment-overview class="sentiment-overview"></app-sentiment-overview>
   </div>
   <app-comments-list [refreshComments]="docId" class="comment-section"></app-comments-list>
 </main>

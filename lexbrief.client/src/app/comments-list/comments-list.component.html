@@ -3,16 +3,16 @@
     <li *ngFor="let comment of comments" class="comment">
       <div class="content">
         <p class="text">{{ comment.content }}</p>
-<!--       <p style="color: red;" *ngIf="comment.sentiment <= 0.4"><b>Negative</b></p>
-        <p style="color: orange;" *ngIf="comment.sentiment > 0.4 && comment.sentiment < 0.6"><b>Neutral</b></p>
-        <p style="color: green;" *ngIf="comment.sentiment >= 0.6"><b>Positive</b></p>
-  -->
+        <!--       <p style="color: red;" *ngIf="comment.sentiment <= 0.4"><b>Negative</b></p>
+                <p style="color: orange;" *ngIf="comment.sentiment > 0.4 && comment.sentiment < 0.6"><b>Neutral</b></p>
+                <p style="color: green;" *ngIf="comment.sentiment >= 0.6"><b>Positive</b></p>
+          -->
       </div>
       <div class="owner">
         <div class="initials">
           {{ comment.ownerInitials }}
         </div>
-      </div> 
+      </div>
     </li>
   </ul>
   <div class="input-section">
@@ -22,4 +22,6 @@
     </mat-form-field>
     <button mat-fab (click)="addComment()"><mat-icon>send</mat-icon></button>
   </div>
+  <app-sentiment-overview [summary]="commentSummary" class="sentiment-overview"></app-sentiment-overview>
 </div>
+
