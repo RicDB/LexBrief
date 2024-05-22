@@ -13,5 +13,12 @@
     <None Update="Data\Docs\Debtors_Creditors_ All movements.pdf">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Update="SentimentAnalysis\model.zip">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ML" Version="3.0.1" />
   </ItemGroup>
 </Project>

@@ -24,8 +24,9 @@ namespace LexBrief.Controllers
 
         // POST api/<CommentsController>
         [HttpPost]
-        public void Post([FromBody] string value)
+        public CommentDto Post([FromBody] CommentDto comment)
         {
-        }       
+            return _commentService.AddComment(comment);
+        }
     }
 }
