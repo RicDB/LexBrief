@@ -21,6 +21,7 @@ export class DocumentsListService {
 export interface DocumentDto {
   id: number;
   title: string;
+  summary: string;
 }
 
 export interface DocumentDetailDto extends DocumentDto {
